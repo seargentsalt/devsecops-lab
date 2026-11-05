@@ -1,4 +1,4 @@
-# Acknowledged: credential rotated and revoked
+# Acknowledged: credential rotated and revoked.
 ceecbc6b88cf82434c95ff64e9d0455d733cfee2:README.md:synthetic-lab-secret:69
 ceecbc6b88cf82434c95ff64e9d0455d733cfee2:config.py:synthetic-lab-secret:3
 3f4ec1380687b4dfde387481c83ac168e5c2b664:config.py:synthetic-lab-secret:4
