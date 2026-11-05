@@ -1,5 +1,8 @@
 title = "DevSecOps learning lab rules"
 
+[extend]
+useDefault = true
+
 [[rules]]
 id = "synthetic-lab-secret"
 description = "Synthetic lab marker (not a real credential)"
