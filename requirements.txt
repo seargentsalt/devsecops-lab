@@ -1,4 +1,4 @@
 # Deliberately outdated pins for the SCA exercise.
 # Do not use these versions in a real application.
-Flask==0.12.2
+Flask==3.1.3
 PyYAML==5.3
