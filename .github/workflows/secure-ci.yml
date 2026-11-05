@@ -89,3 +89,25 @@ jobs:
             --config=/repo/.gitleaks.toml \
             --redact \
             --verbose
+           
+  current-secrets-scan:
+    name: Scan current repository files
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6.1.0
+
+      - name: Scan current files with Gitleaks
+        run: |
+          docker run --rm \
+            -v "$PWD:/repo" \
+            zricethezav/gitleaks:v8.24.3 \
+            detect \
+            --source=/repo \
+            --no-git \
+            --config=/repo/.gitleaks.toml \
+            --redact \
+            --verbose          
