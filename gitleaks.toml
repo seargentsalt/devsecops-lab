@@ -1,0 +1,7 @@
+title = "DevSecOps learning lab rules"
+
+[[rules]]
+id = "synthetic-lab-secret"
+description = "Synthetic lab marker (not a real credential)"
+regex = """LAB_FAKE_[A-Z0-9]{16}"""
+tags = ["lab", "test"]

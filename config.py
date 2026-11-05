@@ -1,0 +1,3 @@
+# INTENTIONALLY FAKE SECRET FOR THE GITLEAKS EXERCISE.
+# This is a synthetic marker and is NOT a valid credential.
+LAB_API_KEY = "LAB_FAKE_0123456789ABCDEF"
